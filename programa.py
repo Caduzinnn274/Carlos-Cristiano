@@ -1,5 +1,5 @@
 import os
-from restaurante import Restaurante
+from Contato import Restaurante
 
 class ProgramaExpresso:
     def __init__(self):
@@ -26,6 +26,7 @@ class ProgramaExpresso:
         print()
 
     def escolher_opcoes(self):
+        self.mostrar_subtitulo("Contact Manager\n".ljust(20))
         
         print("1 - Cadastrar Contatos")
         print("2 - Listar Contatos")
